@@ -34,7 +34,7 @@ int main(){
             while(1){
                 if(cartasCasa < 21 && cartasUser < 21){
                     printf("Escolha:\n");
-                    printf("1. Comprar  2. Manter  3. Aumentar  4. Desistir\n");
+                    printf("1. Comprar  2. Manter  3. Desistir\n");
                     scanf("%d", &decisao);
 
                     if(decisao == 1 && cartasCasa > 17){
